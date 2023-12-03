@@ -1,0 +1,33 @@
+
+
+//Menghapus informasi login lama github jika ada
+Masuk Windows Credential manager
+Tekan tombol Windows + R dan ketik ( control keymgr.dll )
+Hapus git:https://github.com
+
+
+
+//Menganti Nama pengguna dan email github untuk upload project
+git config --global user.name "NamaPenggunaBaru"
+git config --global user.email "EmailBaru@gmail.com"
+
+
+//Melihat perubahan pengantian diatas
+git config user.name
+git config user.email
+
+
+//Upload project ke github lewat gitbash
+  git init
+  git add . 
+  git commit -m "tambahkan komentar"         -----> ubah komentar sesuai kebutuhan
+  git branch -M main
+  git remote add origin https://github.com/ica4me/halloworldApps.git      ----> sesuaikan repository dengan yang telah di buat di github
+
+
+// melihat remote repository yang terhubung
+git remote -v
+
+
+//proses upload dan login github
+  git push -u origin main
