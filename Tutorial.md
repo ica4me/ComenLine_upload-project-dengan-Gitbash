@@ -9,31 +9,31 @@ Hapus git:https://github.com
 
 
 //Menganti Nama pengguna dan email github untuk upload project
-git config --global user.name "NamaPenggunaBaru"
-git config --global user.email "EmailBaru@gmail.com"
+#git config --global user.name "NamaPenggunaBaru"
+#git config --global user.email "EmailBaru@gmail.com"
 
 
 //Melihat perubahan pengantian diatas
-git config user.name
-git config user.email
+#git config user.name
+#git config user.email
 
 
 //Upload project ke github lewat gitbash
-  git init
-  git add . 
-  git commit -m "tambahkan komentar"         -----> ubah komentar sesuai kebutuhan
-  git branch -M main
-  git remote add origin https://github.com/ica4me/halloworldApps.git      ----> sesuaikan repository dengan yang telah di buat di github
+ # git init
+ # git add . 
+ # git commit -m "tambahkan komentar"         -----> ubah komentar sesuai kebutuhan
+ # git branch -M main
+ # git remote add origin https://github.com/ica4me/halloworldApps.git      ----> sesuaikan repository dengan yang telah di buat di github
 
 
 // melihat remote repository yang terhubung
-git remote -v
+# git remote -v
 
 //gunakan komentar berikut untuk menghapus git remote yang lama
-git remote remove origin
+# git remote remove origin
 
 
 //proses upload dan login github
-  git push -u origin main
+ # git push -u origin main
 
   
